@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Upwork">
+	<parameter name="driver.prop" value="webdriver.chrome.driver"></parameter>
+	<parameter name="driver.path"
+		value="C:\Users\Admin\Downloads\chromedriver_win32\chromedriver.exe"></parameter>
+	<parameter name="keyword" value="ruby"></parameter>
+	<test name="Freelancers">
+		<classes>
+			<class name="com.test.upwork.SearchFreelancers" />
+		</classes>
+	</test>
+</suite>
