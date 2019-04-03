@@ -29,7 +29,7 @@ browser.search_text.submit
 #sleep 60
 
 #Open Filters and select filters in Hourly Rate and Category
-#=begin
+=begin
 browser.filters_icon.click
 $stdout.puts "filters icon click"
 sleep 10
@@ -44,7 +44,7 @@ $stdout.puts "filters icon click"
 sleep 10
 browser.search_button.click
 sleep 20 
-#=end
+=end
 
 #Get all outerHTML attributes
 page_source = browser.page_source.attribute('outerHTML')
